@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= player.first_name + " " + player.second_name
+  dl
+    dt Team Name
+    dd= player.team_name
+    dt Position
+    dd= player.type_name
+  each stat in player.stats
+    pre= stat

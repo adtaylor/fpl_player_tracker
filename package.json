@@ -14,6 +14,7 @@
     "less-middleware": "1.0.x",
     "mongoose": "^4.1.1",
     "morgan": "~1.5.3",
-    "serve-favicon": "~2.2.1"
+    "serve-favicon": "~2.2.1",
+    "mongoose-polymorphic": "^0.1.1"
   }
 }

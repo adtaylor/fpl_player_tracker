@@ -2,4 +2,7 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  ul
+    each player in players
+      li
+        a(href='/player/'+player._id)=  player.team_name + " - " + player.web_name + " - [" + player.type_name + "]"
